@@ -1,0 +1,4 @@
+Table_name,Result
+A1,p
+A2,p
+A3,f
