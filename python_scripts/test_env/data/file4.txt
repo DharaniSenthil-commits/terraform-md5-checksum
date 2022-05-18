@@ -1,6 +1,0 @@
-Table_name,Result
-D1,p
-D2,p
-D3,P
-D4,p
-D5,p

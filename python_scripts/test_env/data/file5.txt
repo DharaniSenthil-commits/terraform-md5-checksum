@@ -1,4 +1,0 @@
-Table_name,Result
-E1,pass
-E2,pass
-E3,pass

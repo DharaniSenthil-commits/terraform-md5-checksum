@@ -11,13 +11,17 @@ variable "key_name" {
   default="learn_key"
 }
 
-variable "region" {
-    default = "ap-south-1"
+variable "aws_security_group" {
+  default= ["${"aws_security_group.tf_sg.id"}"]
 }
+
 variable "access_key" {
-  default="AKIAW3MTRID44MXAABO3"
+  default="AKIARETMRN6MPWL257ZB"
 }
 variable "secret_key" {
-    default = "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"
+    default = "ehW0hKLXCuJGopzHsSo/nW3jtrCVkkUuwd+DGhHS"
   
+}
+variable "region" {
+    default = "ap-south-1"
 }

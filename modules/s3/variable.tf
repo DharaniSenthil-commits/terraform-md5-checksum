@@ -14,10 +14,3 @@ variable "s3_folders" {
 variable "acl"{
     default = "private"
 }
-variable "access_key" {
-  default="AKIAW3MTRID44MXAABO3"
-}
-variable "secret_key" {
-    default = "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"
-  
-}

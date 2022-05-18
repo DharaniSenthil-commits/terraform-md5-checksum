@@ -1,0 +1,5 @@
+Table_Name,Result
+T1,p
+t2,f
+t3,p
+
