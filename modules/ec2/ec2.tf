@@ -4,7 +4,7 @@ resource "aws_instance" "ec2-from-tf" {
     tags={
         Name=var.tags_name
     }
-    iam_instance_profile = "arn:aws:iam::078610788248:instance-profile/ec2-role****"
+    iam_instance_profile = ""
     #security_groups =var.aws_security_group
     
     user_data = <<-EOF
