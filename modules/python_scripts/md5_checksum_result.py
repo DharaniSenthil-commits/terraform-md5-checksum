@@ -22,5 +22,10 @@ with open(input_path) as f:
             op_result="fail"
         
         write_result=open(output_path,"w")
-        result=[file_path,op_result]
         write_result.write(result[0]+","+result[1])
+
+
+'''key='/Output/output.txt'
+s3_client.upload_file(output_path, Bucket_Name, key)
+'''    
+    
